@@ -1,6 +1,6 @@
-I am Rahul.
+I am Rahul Katta.
 This is a website to showcase my portfolio.
-I Know
+I Know:
 
 1.repl.it
 
