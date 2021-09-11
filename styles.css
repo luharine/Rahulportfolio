@@ -1,54 +1,85 @@
 <style>@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
-</style>
-
-:root {
-    --primary:rgb(114, 43, 230);
+</style>:root {
+    --primary: rgb(114, 43, 230);
     --gray: #F3F4F6;
     --dark-gray: #555658;
 }
+
 body {
     font-family: 'Montserrat', sans-serif;
 }
-hr{
-    margin:2rem 0rem;
+
+hr {
+    margin: 2rem 0rem;
 }
-.container{
+
+.container {
     padding-left: 1rem;
-    padding-right:1rem;
+    padding-right: 1rem;
 }
-.container-center{
+
+.container-center {
     max-width: 600px;
-    margin:auto;
+    margin: auto;
 }
 
-.linkone{
+.linkone {
     text-decoration: none;
-    color:white;
-    background-color:rgb(114, 43, 230);
+    color: white;
+    background-color: rgb(114, 43, 230);
     width: max-content;
     min-width: 140px;
     border-radius: 0.5rem;
     padding: 0.5rem 1rem 0.5rem 1rem;
 }
-.linktwo{
+
+.linktwo {
 
     text-decoration: none;
-    color:rgb(114, 43, 230) ;
-    border: 1px solid rgb(114, 43, 230) ;
+    color: rgb(114, 43, 230);
+    border: 1px solid rgb(114, 43, 230);
     width: max-content;
     min-width: 140px;
     border-radius: 0.5rem;
     padding: 0.5rem 1rem 0.5rem 1rem;
-    
+
 
 }
 
-.list-non-bullet{
-    list-style:none;
+.list-non-bullet {
+    list-style: none;
 }
 
-.list-item-inline{
-    display:inline;
-    paddding:0rem 0.5rem;
+.list-item-inline {
+    display: inline;
+    padding: 0.5rem 1rem;
+}
+
+
+.navigation {
+
+    background-color: rgb(114, 43, 230);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+    font-size: 1rem 1rem;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+    padding-left: 1rem;
+
+}
+
+.navigation .link {
+    color: white;
+}
+
+.navigation .link-active {
+    font-weight: bold;
 }
