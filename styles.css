@@ -43,3 +43,12 @@ hr{
     
 
 }
+
+.list-non-bullet{
+    list-style:none;
+}
+
+.list-item-inline{
+    display:inline;
+    paddding:0rem 0.5rem;
+}
