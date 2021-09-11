@@ -2,9 +2,16 @@
 
 </style>
 
-
+:root {
+    --primary:rgb(114, 43, 230);
+    --gray: #F3F4F6;
+    --dark-gray: #555658;
+}
 body {
     font-family: 'Montserrat', sans-serif;
+}
+hr{
+    margin:2rem 0rem;
 }
 .container{
     padding-left: 1rem;
@@ -13,4 +20,26 @@ body {
 .container-center{
     max-width: 600px;
     margin:auto;
+}
+
+.linkone{
+    text-decoration: none;
+    color:white;
+    background-color:rgb(114, 43, 230);
+    width: max-content;
+    min-width: 140px;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+.linktwo{
+
+    text-decoration: none;
+    color:rgb(114, 43, 230) ;
+    border: 1px solid rgb(114, 43, 230) ;
+    width: max-content;
+    min-width: 140px;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    
+
 }
