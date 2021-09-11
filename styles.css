@@ -92,6 +92,7 @@ hr {
 
 .hero {
     padding: 2rem;
+    padding-top: 5rem;
 }
 
 .hero .hero-img {
@@ -140,4 +141,7 @@ hr {
 .footer .footer-header{
     font-size: x-large;
     font-weight: bold;
+}
+.projectpadding{
+    padding:1.5rem 0rem;
 }
