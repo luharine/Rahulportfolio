@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    margin:0px;
 }
 
 hr {
@@ -96,6 +97,7 @@ hr {
 
 .hero .hero-heading {
     color: grey;
+    text-align: center;
     padding-top: 1rem;
 }
 
