@@ -1,4 +1,4 @@
-I am Rahli Katta.
+I am Rahul Katta.
 This is a website to showcase my portfolio.
 I Know:
 
